@@ -6,7 +6,21 @@
   <link href='./game.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
-  <canvas id="game" width="700" height="700"></canvas>
+  <section class="main-section">
+    <h1 class="header">Snake</h1>
+    <article class="main-area">
+      <article class="text-area instructions"></article>
+      <canvas id="game" width="600" height="600"></canvas>
+      <article class="text-area story"></article>
+    </article>
+  </section>
+  <nav class="footer">
+    <article class="footer-links">
+      <a href="https://github.com/Alexbruce1/Gametime" class="github"><img class="nav-icon" src="lib/images/gh-logo.svg" alt="Github logo">GitHub</a>
+      <a href="http://frontend.turing.io/projects/game-time.html" class="game-time"><img class="nav-icon" src="lib/images/turing-logo.png" alt="Turing logo">Project Comp</a>
+      <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)" class="wiki"><img class="nav-icon" src="lib/images/wp-logo.png" alt="wikipedia logo">Wikipedia</a>
+    </article>
+  </nav>
   <script src="main.bundle.js"></script>
 </body>
 </html>
