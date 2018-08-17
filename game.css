@@ -6,6 +6,10 @@ body {
   width: 100vw;
 }
 
+#game {
+  font-family: 'VT323', monospace;
+}
+
 .main-section {
   /* background-color: #00000080; */
   height: 800px;
