@@ -6,10 +6,6 @@ body {
   width: 100vw;
 }
 
-#game {
-  font-family: 'VT323', monospace;
-}
-
 .main-section {
   /* background-color: #00000080; */
   height: 800px;
@@ -36,10 +32,17 @@ body {
   min-width: 250px;
 }
 
+.game-info {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
 #game {
   border: 1px dashed;
-  margin: auto;
   display: block;
+  font-family: 'VT323', monospace;
+  margin: auto;
 }
 
 .footer {
