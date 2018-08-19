@@ -26,9 +26,11 @@ body {
 }
 
 .text-area {
-  background-color: green;
+  background-color: #1e7352;
+  border: .1em solid #acadaf;
   border-radius: 1em;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #dbdddc;
+  font-family: 'Maven Pro', sans-serif;
   height: 100%;
   overflow: scroll;
   width: 250px;
@@ -36,18 +38,18 @@ body {
 }
 
 .text-area h1 {
-  margin: .5em 0 0 0;
   font-family: 'vt323';
   font-size: 2em;
+  margin: .5em 0 0 0;
 }
 
 .text-area p {
-  line-height: 200%;
+  line-height: 175%;
   text-align: left;
 }
 
 .arrow-keys-image {
-  filter: invert(90%);
+  filter: invert(80%);
 }
 
 .game-info {
@@ -56,8 +58,14 @@ body {
   width: 600px;
 }
 
+.game-info p {
+  font-family: vt323;
+  font-size: 2em;
+  margin: .1em;
+}
+
 #game {
-  border: 1px solid;
+  border: .1em solid #dbdddc;
   border-radius: 1em;
   display: block;
   font-family: 'VT323', monospace;
@@ -84,16 +92,20 @@ body {
   color: #dbdddc;
   display: inline-flex;
   font-size: 1.2em;
+  height: 100%;
   text-decoration: none;
   vertical-align: middle;
 }
 
 a p {
   display: block;
-  height: 100%;
+  font-family: 'Maven Pro', sans-serif;
+  height: 0;
+  padding: 15px 0;
   margin: 0;
-  vertical-align: middle;
 }
+
+
 
 .nav-icon {
   filter: invert(100%);
