@@ -7,7 +7,7 @@
   <link href='./game.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
-  <h1 class="header">Snake</h1>
+  <!-- <h1 class="header">Snake</h1> -->
   <section class="main-section">
     <article class="game-info">
       <p id="score"></p>
@@ -16,14 +16,21 @@
       <p id="game-over"></p>
     </article>
     <article class="main-area">
-      <article class="text-area instructions"></article>
+      <article class="text-area instructions">
+        <h1>How to play</h1>
+        <p>Guide the snake through the game by using the arrow keys to change its direction. Feed it as many apples as possible, but be careful to avoid hitting walls or the snake's body!</p>
+        <img class="arrow-keys-image" src="./lib/images/arrows.png" alt="keyboard arrow keys">
+      </article>
       <canvas id="game" width="600" height="600">
         <img src="./images/snake1.png" id="snake-image" alt="snake image">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
       </canvas>
-      <article class="text-area story"></article>
+      <article class="text-area story">
+        <h1>What is Snake?</h1>
+        <p>Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself being a primary obstacle. The concept originated in the 1976 arcade game Blockade, and the ease of implementing Snake has led to hundreds of versions (some of which have the word snake or worm in the title) for many platforms. The game was partially known for being on early Nokia cell phones, starting in 1997. There are also over 300 Snake-based games in the iOS App Store.</p>
+      </article>
     </article>
   </section>
   <nav class="footer">
