@@ -3,7 +3,6 @@ const Game = require('../lib/Game');
 const Block = require('../lib/Block');
 const Apple = require('../lib/Apple');
 
-
 const ctx = {
   canvas: {
     width: 300,
@@ -55,19 +54,7 @@ describe('Game', () => {
 
     assert.notDeepEqual(game.started, startedValue);
   });
-
-  // it('should reset the snake', () => { 
-  //   game.snake = new Block(130, 130, 30, 30, 'red', 'black');
-
-  //   game.resetSnake();
-
-  //   assert.deepEqual(game.snake, new Block(120, 30, 30, 30, 'red', 'black'));
-  // });
-
-  // it('should collide with walls', () => { 
-
-  // });
-
+  
   it('should toggle the pause property', () => { 
     game.paused = false;
 
@@ -75,15 +62,4 @@ describe('Game', () => {
 
     assert.deepEqual(game.paused, true);
   });
-
-  // it('should be able to handle key presses', () => { 
-  //   const direction = {
-  //     dx: 0,
-  //     dy: 0
-  //   };
-
-  //   game.handleKeyPress('ArrowLeft');
-
-  //   assert.deepEqual(game.direction.dx, -1)
-  // });
 });

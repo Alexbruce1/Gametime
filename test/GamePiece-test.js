@@ -62,5 +62,4 @@ describe('GamePiece', () => {
 
     assert.equal(gamepiece.dy, 1);
   });
-
 });

@@ -23,9 +23,4 @@ describe('Snake', () => {
       dyv: 2
     });
   });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
 });
