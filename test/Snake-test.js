@@ -28,16 +28,4 @@ describe('Snake', () => {
 
   it.skip('should', () => { });
 
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
 });
