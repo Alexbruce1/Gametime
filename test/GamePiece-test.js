@@ -18,8 +18,8 @@ describe('GamePiece', () => {
       color: 'green',
       dx: 1,
       dy: 0,
-      dxv: 1,
-      dyv: 1
+      dxv: 2,
+      dyv: 2
     });
     // Teardown
   });
