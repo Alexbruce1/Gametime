@@ -22,10 +22,4 @@ describe('Block', () => {
       dyv: 2
     });
   });
-
-  it('should draw', () => { 
-
-  });
-
-  it.skip('should', () => { });
 });

@@ -22,7 +22,4 @@ describe('Apple', () => {
       borderColor: undefined
     });
   });
-
-
-  it.skip('should', () => { });
 });
