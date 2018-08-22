@@ -23,20 +23,9 @@ describe('Block', () => {
     });
   });
 
-  it.skip('should', () => { });
+  it('should draw', () => { 
+
+  });
 
   it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-})
+});

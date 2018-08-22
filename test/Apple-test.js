@@ -25,19 +25,4 @@ describe('Apple', () => {
 
 
   it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
-  it.skip('should', () => { });
-
 });

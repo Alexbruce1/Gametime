@@ -9,7 +9,6 @@ describe('GamePiece', () => {
   });
 
   it('should take properties', () => {
-    // Assertion
     assert.deepEqual(gamepiece, {
       x: 30,
       y: 30,
@@ -21,30 +20,47 @@ describe('GamePiece', () => {
       dxv: 2,
       dyv: 2
     });
-    // Teardown
   });
 
   it('should collide with a second gamepiece that occupies the same space', () => {
     const gamepiece2 = new GamePiece(30, 30, 10, 10, 'green');
 
-    // Execution
     const colliding = gamepiece.isCollidingWith(gamepiece2);
 
-    // Assertion
     assert.isTrue(colliding);
   });
 
   it('should not collide with a second gamepiece that does not occupy the same space', () => {
     const gamepiece2 = new GamePiece(130, 130, 10, 10, 'green');
 
-    // Execution
     const colliding = gamepiece.isCollidingWith(gamepiece2);
 
-    // Assertion
     assert.isFalse(colliding);
   });
 
-  // it('should collide with walls', () => {})
-  // it('should be able to move', () => {})
-  // it('should be able to changeDirection', () => {})
+  it('should collide with walls', () => {
+    const gamepiece2 = new GamePiece(600, 600, 30, 30, 'green');
+
+    const collide = gamepiece2.isCollidingWithWall(600, 600);
+
+    assert.isTrue(collide);
+  });
+
+  it('should be able to move', () => {
+    gamepiece.move();
+
+    assert.notEqual(gamepiece.x, 30);
+  });
+
+  it('should be able to changeDirection', () => {
+    const direction = {
+      dx: 0,
+      dy: 1
+    };
+
+    gamepiece.changeDirection(direction);
+
+    assert.equal(gamepiece.dy, 1);
+  });
+
 });
